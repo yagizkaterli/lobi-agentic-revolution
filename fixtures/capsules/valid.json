@@ -1,0 +1,1 @@
+{"schema":"capsule-v1","id":"fixture-valid","status":"MEASURED","source":"chess_arena/receipt.jsonl","falsifiers":["replay divergence"],"unknowns":["task quality"]}

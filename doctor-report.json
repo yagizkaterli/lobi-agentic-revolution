@@ -1,0 +1,37 @@
+{
+  "schema": "context-doctor-report-v1",
+  "root": "C:/Users/yagiz/vaults/lobi-agentic-revolution/fixtures/capsules",
+  "files": 2,
+  "valid": 2,
+  "invalid": 0,
+  "benchmark_ready": 1,
+  "unknown_fields": 1,
+  "records": [
+    {
+      "path": "invalid.json",
+      "id": "fixture-invalid",
+      "schema": "capsule-v1",
+      "status": "UNKNOWN",
+      "unknowns": null,
+      "falsifiers": null,
+      "provenance": false,
+      "benchmark_ready": false,
+      "errors": null
+    },
+    {
+      "path": "valid.json",
+      "id": "fixture-valid",
+      "schema": "capsule-v1",
+      "status": "MEASURED",
+      "unknowns": [
+        "task quality"
+      ],
+      "falsifiers": [
+        "replay divergence"
+      ],
+      "provenance": true,
+      "benchmark_ready": true,
+      "errors": null
+    }
+  ]
+}
