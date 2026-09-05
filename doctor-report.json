@@ -2,21 +2,24 @@
   "schema": "context-doctor-report-v1",
   "root": "C:/Users/yagiz/vaults/lobi-agentic-revolution/fixtures/capsules",
   "files": 2,
-  "valid": 2,
-  "invalid": 0,
+  "valid": 1,
+  "invalid": 1,
   "benchmark_ready": 1,
   "unknown_fields": 1,
   "records": [
     {
       "path": "invalid.json",
       "id": "fixture-invalid",
-      "schema": "capsule-v1",
-      "status": "UNKNOWN",
+      "schema": "",
+      "status": "",
       "unknowns": null,
       "falsifiers": null,
       "provenance": false,
       "benchmark_ready": false,
-      "errors": null
+      "errors": [
+        "missing schema",
+        "missing status"
+      ]
     },
     {
       "path": "valid.json",
